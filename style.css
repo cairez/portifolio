@@ -1,0 +1,18 @@
+body { 
+    background-color: rgb(61, 61, 61);
+}
+.div1 { 
+    display: inline;
+    padding: 0px;
+}
+h1 { 
+    color: white;
+    padding-bottom: 20px;
+}
+h2 { 
+    color: white;
+    padding-bottom: 20px;
+}
+p { 
+    color: rgb(#3b3b3b, green, blue)
+}
