@@ -1,18 +1,65 @@
+* {
+    font-family: 'Poppins';
+
+}
 body { 
-    background-color: rgb(61, 61, 61);
+    background-color: #1f1f1f;
+    padding: 20px 20px;
 }
-.div1 { 
-    display: inline;
-    padding: 0px;
+.cabecalho { 
+    background-color: rgba(255, 255, 255, 0);
+    display: inline-flex;
+    width: 1200px;
+    padding: 20px 0p;
 }
-h1 { 
+.cabecalho img {
+    height: 39px;
+    width: 80px;
+    padding: 0px 20px;
+}
+.cabecalho li { 
+    padding: 10px 50px;
+}
+.cabecalho a{
+    color: rgb(103, 103, 103);
+}
+.logos {
+    display: inline-flex;
+    height: 30px;
+    width: 90px;
+}
+.texto1 { 
+    background-color: rgba(255, 0, 0, 0.24);
+    padding: 20px 100px;
     color: white;
-    padding-bottom: 20px;
 }
-h2 { 
+.texto2 { 
+    background-color: rgba(0, 89, 255, 0.233);
     color: white;
-    padding-bottom: 20px;
+    padding: 20px 0px 0px 100px;
+    height: 150px;
+    width: 480px;
 }
-p { 
-    color: rgb(#3b3b3b, green, blue)
+.texto3 { 
+    background-color: rgb(179, 245, 209);
+    padding: 10px 0px 0px 100px;
+    width: 480px;
+    height: 65px;
+    display: inline-flex;
+}
+.texto3 img {
+    padding: 20px 0px 0px 0px ;
+    height: 30px;
+    width: 40px;
+}
+.texto3 p {
+    padding: 0px 10px 0px 10px;
+    color: white;
+}
+li { 
+    list-style: none;
+}
+.cells {
+    background-color: rgba(9, 255, 0, 0);
+    padding: 0px 20px 0px 660px;
 }
