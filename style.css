@@ -1,6 +1,5 @@
 * {
     font-family: 'Poppins';
-
 }
 body { 
     background-color: #1f1f1f;
@@ -23,25 +22,33 @@ body {
 .cabecalho a{
     color: rgb(103, 103, 103);
 }
+.cabecalho a:hover{
+    color:white
+}
 .logos {
     display: inline-flex;
     height: 30px;
     width: 90px;
 }
 .texto1 { 
-    background-color: rgba(255, 0, 0, 0.24);
+    background-color: rgba(255, 0, 0, 0);
     padding: 20px 100px;
     color: white;
 }
 .texto2 { 
-    background-color: rgba(0, 89, 255, 0.233);
-    color: white;
+    background-color: rgba(0, 89, 255, 0);
     padding: 20px 0px 0px 100px;
     height: 150px;
     width: 480px;
 }
+.texto2 h2 { 
+    color: white;
+}
+.texto2 p {
+    color : rgb(95, 95, 95)
+}
 .texto3 { 
-    background-color: rgb(179, 245, 209);
+    background-color: rgba(179, 245, 209, 0);
     padding: 10px 0px 0px 100px;
     width: 480px;
     height: 65px;
@@ -54,12 +61,41 @@ body {
 }
 .texto3 p {
     padding: 0px 10px 0px 10px;
+    color: rgb(94, 94, 94);
+}
+.link {
+    background-color: rgba(0, 128, 0, 0);
+    padding : 10px 0px 0px 100px;
+    width: 480px;
+    height: 35px;
+    display: inline-flex;
+}
+.link a { 
     color: white;
+    padding: 0px 10px 0px 10px;
+}
+.link img {
+    width: 30px;
+    height: 30px;
 }
 li { 
     list-style: none;
 }
 .cells {
-    background-color: rgba(9, 255, 0, 0);
-    padding: 0px 20px 0px 660px;
+    background-color: rgba(250, 172, 4, 0);
+}
+.cell img { 
+    padding: 20px 20px;
+    display: inline-flex;
+}
+a { 
+    text-decoration: none;
+}
+.conteudo { 
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.conteudo .cell { 
+    width: 80%;
 }
