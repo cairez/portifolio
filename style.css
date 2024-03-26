@@ -10,11 +10,13 @@ body {
     display: inline-flex;
     width: 1200px;
     padding: 20px 0p;
+    padding-left: 175px;
 }
 .cabecalho img {
     height: 39px;
     width: 80px;
     padding: 0px 20px;
+    padding-left: 50px;
 }
 .cabecalho li { 
     padding: 10px 50px;
@@ -30,10 +32,52 @@ body {
     height: 30px;
     width: 90px;
 }
+li { 
+    list-style: none;
+}
+a { 
+    text-decoration: none;
+}
+.iniciopai { 
+    background-color: rgba(128, 0, 128, 0);
+    height: 80vh;
+    position: relative;
+    }
+.esquerda1 { 
+    background-color: rgba(15, 128, 0, 0);
+    height: 50%;
+    padding: 50px 20px 0px 180px;
+    display: inline-block;
+    position: absolute; 
+    top: 0;
+}
+.esquerda1 p {
+    color: gray;
+}
+.esquerda1 h1 { 
+    color: white;
+}
+.direita1 { 
+    background-color: rgba(0, 255, 255, 0);
+    display: inline-block; 
+    width: 800px;
+    height: 50%; 
+    padding: 100px 20px 0px 900px;
+}
+.direita1 p {
+    color: gray;
+}
+.direita1 a{
+    color: white;
+}
+.direita1 a:hover {
+    text-decoration: underline;
+}
 .texto1 { 
     background-color: rgba(255, 0, 0, 0);
     padding: 20px 100px;
     color: white;
+    padding-left: 270px;
 }
 .texto2 { 
     background-color: rgba(0, 89, 255, 0);
@@ -78,18 +122,12 @@ body {
     width: 30px;
     height: 30px;
 }
-li { 
-    list-style: none;
-}
 .cells {
     background-color: rgba(250, 172, 4, 0);
 }
 .cell img { 
     padding: 20px 20px;
     display: inline-flex;
-}
-a { 
-    text-decoration: none;
 }
 .conteudo { 
     display: inline-flex;
@@ -98,4 +136,7 @@ a {
 }
 .conteudo .cell { 
     width: 80%;
+}
+.esquerda2 h2{ 
+    color: white;
 }
