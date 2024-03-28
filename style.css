@@ -5,24 +5,33 @@ body {
     background-color: #1f1f1f;
     padding: 20px 20px;
 }
+.capai {
+    display: inline-flex;
+}
 .cabecalho { 
     background-color: rgba(255, 255, 255, 0);
     display: inline-flex;
-    width: 1200px;
-    padding: 20px 0p;
-    padding-left: 175px;
+    width: 1100px;
+    padding-left: 0px;
+    padding-right: 20px;
 }
-.cabecalho img {
-    height: 39px;
-    width: 80px;
-    padding: 0px 20px;
-    padding-left: 50px;
+#log1 { 
+    padding: 0px 0px 0px 60px;
+}
+.logos { 
+    background-color: rgba(0, 255, 255, 0);
+    padding: 7px 50px 10px 20px;
+}
+.logos img { 
+    background-color: rgba(137, 43, 226, 0);
+    display: flex;
 }
 .cabecalho li { 
-    padding: 10px 50px;
+    padding: 10px 30px 0px 50px;
 }
 .cabecalho a{
-    color: rgb(103, 103, 103);
+    color: #909090;
+    display: inline-flexbox;
 }
 .cabecalho a:hover{
     color:white
@@ -40,32 +49,33 @@ a {
 }
 .iniciopai { 
     background-color: rgba(128, 0, 128, 0);
-    height: 80vh;
+    height: 400px;
     position: relative;
     }
 .esquerda1 { 
     background-color: rgba(15, 128, 0, 0);
     height: 50%;
-    padding: 50px 20px 0px 180px;
+    padding: 50px 2px 0px 110px;
     display: inline-block;
     position: absolute; 
     top: 0;
 }
 .esquerda1 p {
-    color: gray;
+    color: #909090;
 }
 .esquerda1 h1 { 
     color: white;
 }
 .direita1 { 
-    background-color: rgba(0, 255, 255, 0);
-    display: inline-block; 
-    width: 800px;
-    height: 50%; 
-    padding: 100px 20px 0px 900px;
+    background-color: rgba(5, 114, 177, 0);
+    display: inline-flex; 
+    width: 590px;
+    height: 100px; 
+    padding: 20px 20px 280px 700px;
 }
 .direita1 p {
-    color: gray;
+    color: #909090;
+    font-size: 0.95rem;
 }
 .direita1 a{
     color: white;
@@ -89,7 +99,7 @@ a {
     color: white;
 }
 .texto2 p {
-    color : rgb(95, 95, 95)
+    color: #909090;
 }
 .texto3 { 
     background-color: rgba(179, 245, 209, 0);
@@ -105,7 +115,7 @@ a {
 }
 .texto3 p {
     padding: 0px 10px 0px 10px;
-    color: rgb(94, 94, 94);
+    color: #909090;
 }
 .link {
     background-color: rgba(0, 128, 0, 0);
@@ -137,6 +147,66 @@ a {
 .conteudo .cell { 
     width: 80%;
 }
-.esquerda2 h2{ 
+.conteudo1 { 
+    background-color: rgba(255, 255, 255, 0.315);
+    padding: 100px 650px 0px 150px;
+    display: inline-flex;
+}
+.esqmae {
+    width: 500px;
+    background-color: rgba(255, 0, 0, 0.226);
+    padding: 0px 1px 1px 0px;
+}
+.text1 {
+    background-color: rgba(0, 255, 255, 0.336);
+    padding: 0px 0px 0px 0px;
+    height: 160px;
+    width: 500px;
+}
+.text1 h2 {
     color: white;
+}
+.text1 p{ 
+    color : #909090;
+}
+.text2 { 
+    background-color: rgba(179, 245, 209, 0);
+    padding: 0px 10px 20px 10px;
+    width: 480px;
+    height: 65px;
+    display: inline-flex;
+    color: #909090;
+}
+.text2 img {
+    padding: 20px 10px 0px 0px ;
+    height: 30px;
+    width: 40px;
+}
+.text3 { 
+    background-color: rgba(0, 0, 255, 0);
+    padding: 0px 0px 20px 10px;
+    width: 490px;
+    height: 30px;
+    display: flex;
+}
+.text3 a {
+    background-color: rgba(0, 255, 255, 0);
+    color: white;
+    text-decoration: underline;
+    padding: 0px 10px 0px 10px;
+}
+.text3 img {
+    background-color: rgba(0, 255, 255, 0);
+    width: 30px;
+    height: 30px;
+}
+.direita2 { 
+    background-color: aqua;
+    padding: 10px 0px 0px 0px;
+    height: 350px;
+    width: 550px;
+}
+.direita2 img { 
+    width: 550px;
+    height: 350px;
 }
