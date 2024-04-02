@@ -5,33 +5,36 @@ body {
     background-color: #1f1f1f;
     padding: 20px 20px;
 }
-.capai {
-    display: inline-flex;
+
+header{
+    display: flex;
+    justify-content: center;
 }
 .cabecalho { 
     background-color: rgba(255, 255, 255, 0);
     display: inline-flex;
     width: 1100px;
-    padding-left: 0px;
-    padding-right: 20px;
 }
 #log1 { 
     padding: 0px 0px 0px 60px;
 }
 .logos { 
     background-color: rgba(0, 255, 255, 0);
-    padding: 7px 50px 10px 20px;
+    padding: 7px 50px 10px 0px; 
+}
+nav { 
+    display: inline-flex;
 }
 .logos img { 
     background-color: rgba(137, 43, 226, 0);
     display: flex;
+    padding: 0px 3px 0px 0px;
 }
 .cabecalho li { 
-    padding: 10px 30px 0px 50px;
+    padding: 10px 30px 0px 50px;    
 }
 .cabecalho a{
     color: #909090;
-    display: inline-flexbox;
 }
 .cabecalho a:hover{
     color:white
@@ -145,8 +148,6 @@ a {
 }
 .conteudo { 
     display: inline-flex;
-    justify-content: space-evenly;
-    width: 80%;
     background-color: #a50f0f00;
 }
 .conteudo .cell { 
@@ -239,15 +240,74 @@ a {
     padding: 0px 0px 0px 100px;
 }
 .pai { 
-    background-color: rgba(0, 255, 255, 0.24);
+    background-color: rgba(0, 255, 255, 0);
     width: 1350px;
     height: 400px;
 }
 input { 
     background-color: #90909000;
     border-color: (rgba(118, 118, 118, 0), rgba(133, 133, 133, 0));
-    border-right: none;
 }
 .paragrafo { 
     color: white;
+}
+.pai { 
+    background-color: rgba(0, 128, 0, 0);
+    display: flex;
+    padding: 0px 0px 0px 50px;
+}
+.esquerdaf { 
+    background-color: rgba(255, 0, 0, 0);
+    width: 50%;
+    height: 250px;
+    padding: 0px 0px 0px 50px;
+    color: #909090;
+}       
+.input1 { 
+    background-color: rgba(0, 255, 255, 0);
+    height: 10px;
+    height: 30px;  
+    padding: 0px 20px 0px 0px;  
+}
+.input2 { 
+    background-color: rgba(128, 0, 128, 0);
+    height: 10px;
+    height: 30px;  
+    padding: 0px 20px 0px 0px;
+}
+.input3 { 
+    background-color: rgba(255, 255, 0, 0);
+    height: 10px;
+    height: 30px;  
+    padding: 0px 20px 0px 0px;
+}
+.botao { 
+    padding: 10px 0px 0px 0px;
+}
+button { 
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0);
+}
+.direitaf { 
+    background-color: rgba(83, 80, 255, 0);
+    width: 50%;
+    height: 250px;
+}
+.direitaf p { 
+    padding-left: 20px;
+    color: #909090;
+    font-size: 15.2px;
+}
+.imgf {
+    display: inline-flex;
+}
+.imgf img {
+    padding: 0px 5px 0px 0px;
+}
+.fim {
+    background-color: rgba(255, 20, 145, 0);
+}
+.fim p {
+    padding: 0px 0px 0px 550px;
+    color: #909090;
 }
