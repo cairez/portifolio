@@ -87,7 +87,7 @@ a {
     background-color: rgba(255, 0, 0, 0);
     padding: 20px 100px;
     color: white;
-    padding-left: 270px;
+    padding-left: 100px;
 }
 .texto2 { 
     background-color: rgba(0, 89, 255, 0);
@@ -128,12 +128,16 @@ a {
     color: white;
     padding: 0px 10px 0px 10px;
 }
+.link a:hover {
+    text-decoration: underline;
+}
 .link img {
     width: 30px;
     height: 30px;
 }
 .cells {
-    background-color: rgba(250, 172, 4, 0);
+    background-color: rgba(255, 0, 0, 0);
+    padding-left: 120px;
 }
 .cell img { 
     padding: 20px 20px;
@@ -142,23 +146,24 @@ a {
 .conteudo { 
     display: inline-flex;
     justify-content: space-evenly;
-    width: 100%;
+    width: 80%;
+    background-color: #a50f0f00;
 }
 .conteudo .cell { 
     width: 80%;
 }
 .conteudo1 { 
-    background-color: rgba(255, 255, 255, 0.315);
-    padding: 100px 650px 0px 150px;
+    background-color: rgba(0, 68, 255, 0);
+    padding: 100px 70px 100px 80px;
     display: inline-flex;
 }
 .esqmae {
-    width: 500px;
-    background-color: rgba(255, 0, 0, 0.226);
-    padding: 0px 1px 1px 0px;
+    background-color: rgba(255, 0, 0, 0);
+    padding: 20px 90px 20px 20px;
+
 }
 .text1 {
-    background-color: rgba(0, 255, 255, 0.336);
+    background-color: rgba(0, 255, 255, 0);
     padding: 0px 0px 0px 0px;
     height: 160px;
     width: 500px;
@@ -183,17 +188,19 @@ a {
     width: 40px;
 }
 .text3 { 
-    background-color: rgba(0, 0, 255, 0);
+    background-color: rgba(0, 255, 149, 0);
     padding: 0px 0px 20px 10px;
     width: 490px;
     height: 30px;
     display: flex;
 }
 .text3 a {
-    background-color: rgba(0, 255, 255, 0);
+    background-color: rgba(3, 175, 175, 0);
     color: white;
-    text-decoration: underline;
     padding: 0px 10px 0px 10px;
+}
+.text3 a:hover { 
+    text-decoration: underline;
 }
 .text3 img {
     background-color: rgba(0, 255, 255, 0);
@@ -201,12 +208,46 @@ a {
     height: 30px;
 }
 .direita2 { 
-    background-color: aqua;
-    padding: 10px 0px 0px 0px;
+    background-color: rgba(0, 255, 255, 0);
+    padding: 10px 0px 0px 60px;
     height: 350px;
     width: 550px;
 }
 .direita2 img { 
     width: 550px;
     height: 350px;
+}
+.i { 
+    background-color: rgba(0, 255, 255, 0);
+    width: 1350px;
+    height: 180px;
+}
+.i a {
+    color: white;
+}
+.i a:hover {
+    text-decoration: underline;
+}
+.i p {
+    padding-left: 180px;
+    color: #909090;
+}
+.i img { 
+    padding: 0px 0px 0px 380px;
+}
+.paragrafo  {
+    padding: 0px 0px 0px 100px;
+}
+.pai { 
+    background-color: rgba(0, 255, 255, 0.24);
+    width: 1350px;
+    height: 400px;
+}
+input { 
+    background-color: #90909000;
+    border-color: (rgba(118, 118, 118, 0), rgba(133, 133, 133, 0));
+    border-right: none;
+}
+.paragrafo { 
+    color: white;
 }
