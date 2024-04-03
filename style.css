@@ -252,7 +252,7 @@ input {
     color: white;
 }
 .pai { 
-    background-color: rgba(0, 128, 0, 0);
+    background-color: rgba(8, 201, 8, 0);
     display: flex;
     padding: 0px 0px 0px 50px;
 }
@@ -262,36 +262,40 @@ input {
     height: 250px;
     padding: 0px 0px 0px 50px;
     color: #909090;
+    display: grid;
+}  
+.a { 
+    display: flex;
+    height: 0px;
 }       
 .input1 { 
-    background-color: rgba(0, 255, 255, 0);
-    height: 10px;
-    height: 30px;  
+    background-color: rgba(0, 255, 255, 0.007);
+    height: 80px;
+    width: 50%;
     padding: 0px 20px 0px 0px;  
+    display: grid;
 }
 .input2 { 
-    background-color: rgba(128, 0, 128, 0);
-    height: 10px;
-    height: 30px;  
+    background-color: rgba(255, 0, 255, 0);
+    height: 80px;
+    width: 50%;
     padding: 0px 20px 0px 0px;
+    display: grid;
 }
 .input3 { 
     background-color: rgba(255, 255, 0, 0);
-    height: 10px;
-    height: 30px;  
-    padding: 0px 20px 0px 0px;
-}
-.botao { 
-    padding: 10px 0px 0px 0px;
+    width: 630px;
+    height: 60px;
+    display: grid;
 }
 button { 
     width: 100%;
-    background-color: rgba(128, 128, 128, 0);
+    background-color: rgba(128, 128, 128, 0.589);
 }
 .direitaf { 
-    background-color: rgba(83, 80, 255, 0);
-    width: 50%;
+    background-color: rgba(5, 2, 201, 0);
     height: 250px;
+    width: 50%;
 }
 .direitaf p { 
     padding-left: 20px;
