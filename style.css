@@ -269,14 +269,14 @@ input {
     height: 0px;
 }       
 .input1 { 
-    background-color: rgba(0, 255, 255, 0.007);
+    background-color: rgba(0, 255, 255, 0);
     height: 80px;
     width: 50%;
     padding: 0px 20px 0px 0px;  
     display: grid;
 }
 .input2 { 
-    background-color: rgba(255, 0, 255, 0);
+    background-color: rgba(0, 255, 98, 0);
     height: 80px;
     width: 50%;
     padding: 0px 20px 0px 0px;
@@ -289,8 +289,10 @@ input {
     display: grid;
 }
 button { 
-    width: 100%;
-    background-color: rgba(128, 128, 128, 0.589);
+    width: 97%;
+    background-color: rgba(73, 73, 73, 0.37);
+    color: #909090;
+    border: none;
 }
 .direitaf { 
     background-color: rgba(5, 2, 201, 0);
