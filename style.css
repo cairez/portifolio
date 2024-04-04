@@ -306,11 +306,12 @@ button:hover {
     background-color: rgba(5, 2, 201, 0);
     height: 250px;
     width: 50%;
+    padding-right: 80px;
 }
 .direitaf p { 
     padding-left: 20px;
     color: #909090;
-    font-size: 15.2px;
+    font-size: 17px;
 }
 .textof {
     padding-left: 20px;
